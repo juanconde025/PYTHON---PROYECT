@@ -1,0 +1,11 @@
+{
+    "usuarios": [
+        {
+            "nombre": "Juan",
+            "documento": "1",
+            "direccion": "sg",
+            "edad": 234,
+            "numero telefonico": 24334
+        }
+    ]
+}
