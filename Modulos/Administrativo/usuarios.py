@@ -2,11 +2,15 @@ def crear_usuario(datos:dict):
     usuario={}
     usuario["nombre"]=input("Ingrese el nombre: ")
     usuario["documento"]=input("Ingrese el documento: ")
-    usuario["direccion"]=input("Ingrese la direccion: ")
+    usuario["estado"]= ("activo")
     try:
         usuario["edad"] = int(input("Ingrese la edad: "))
     except Exception:
         usuario["edad"] = 0
+    try:
+        usuario["codigo"] = int(input("Ingrese el codigo: "))
+    except Exception:
+        usuario["codigo"] = 0
     try:
         usuario["numero telefonico"] = int(input("Ingrese su numero telefonico: "))
     except Exception:
@@ -39,7 +43,25 @@ def eliminar_usuario(datos):
     return datos
         
 def categoria_usuario(datos):
-    print("")
+    datos = dict(datos)
+    codigo =input("Ingrese el codigo: ")
+    for i in range(len(datos["usuarios"])):
+        if datos["usuarios"][i]["codigo"] == codigo and datos["usuarios"][i]["codigo"] == ("activo"):
+            if codigo == 1 or 2 or 3 or 4 or 5:
+                print("Usuario leal")
+            elif codigo == 6 or 7 or 8 or 9 or 10:
+                print("Usuario nuevo")
+        if datos["usuarios"][i]["codigo"] == codigo and datos["usuarios"][i]["codigo"] == ("inactivo"):
+            if codigo == 1 or 2 or 3 or 4 or 5:
+                print("Usuario regular")
+ 
+            
+                
+
+
+          
+        
+                     
 
 def servicios_utilizados(datos):
     print("")

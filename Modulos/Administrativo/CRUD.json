@@ -1,11 +1,28 @@
 {
     "usuarios": [
         {
-            "nombre": "Juan",
-            "documento": "1",
-            "direccion": "sg",
-            "edad": 234,
-            "numero telefonico": 24334
+            "nombre": "juan",
+            "documento": "1981798",
+            "estado": "activo",
+            "edad": 17,
+            "codigo": 1,
+            "numero telefonico": 132445
+        },
+        {
+            "nombre": "karol",
+            "documento": "91729827",
+            "estado": "activo",
+            "edad": 17,
+            "codigo": 2,
+            "numero telefonico": 27634876
+        },
+        {
+            "nombre": "alejandro",
+            "documento": "1o8739123",
+            "estado": "activo",
+            "edad": 3,
+            "codigo": 3,
+            "numero telefonico": 98234876
         }
     ]
 }

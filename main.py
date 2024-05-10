@@ -7,22 +7,24 @@ from Modulos.Administrativo.usuarios import *
 RUTA = "Modulos/Administrativo/CRUD.json"
 RUTA_SERVICIOS = "Modulos/Servicios/serviciosyproductos.json"
 
-
+datos = cargar_datos(RUTA)
 
 
 while True:
     menu_principal()
     opc = pedir_opcion()
-    datos = cargar_datos(RUTA)
+    
     if opc == 1:
         print(menu_usuarios())
         opc = pedir_opcion()
         if opc == 1:
             datos = crear_usuario(datos)
         elif opc == 2:
-            leer_usuario(datos)
+            datos = leer_usuario(datos)
         elif opc == 4:
             datos = eliminar_usuario(datos)
+        elif opc == 5:
+            datos= categoria_usuario(datos)
     elif opc == 2:
         datos = cargar_datos(RUTA_SERVICIOS)
         print(menu_servicios())
