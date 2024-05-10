@@ -30,8 +30,31 @@ def leer_usuario(datos):
 
         
 
-def actualizar_usuario(datos):
-    print("")
+def actualizar_usuario(datos:dict):
+    
+    documento = input("ingrese el documento del usuario para actualizarlo: ")
+    for i in range(len(datos["usuarios"])):
+        if datos["usuarios"][i]["documento"] == documento:
+            usuario={}
+            usuario["nombre"]=input("Ingrese el nombre: ")
+            usuario["documento"]=input("Ingrese el documento: ")
+            usuario["estado"]= ("activo")
+            try:
+                usuario["edad"] = int(input("Ingrese la edad: "))
+            except Exception:
+                usuario["edad"] = 0
+            try:
+                usuario["codigo"] = int(input("Ingrese el codigo: "))
+            except Exception:
+                usuario["codigo"] = 0
+            try:
+                usuario["numero telefonico"] = int(input("Ingrese su numero telefonico: "))
+            except Exception:
+                usuario["numero telefonico"] = ""
+            datos["usuarios"][i].update(usuario)
+        return datos
+
+
 
 def eliminar_usuario(datos):
     datos = dict(datos)
@@ -78,5 +101,3 @@ def productos_adquiridos(datos):
 def servicios_y_productos(datos):
     print("")
 
-def volver(datos):
-    print("")
