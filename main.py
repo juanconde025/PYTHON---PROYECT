@@ -46,8 +46,14 @@ while True:
            datos_servicios = eliminar_producto(datos_servicios)
             
     elif opc == 3:
+        from Modulos.Servicios.datos import *
+        from Modulos.Servicios.servicios import *
+        datos_servicios = cargar_datos_servicios(RUTA_SERVICIOS)
         print(menu_reportes())
         opc = pedir_opcion()
+        if opc == 1: 
+         cant_serv(datos_servicios)
+         cant_product(datos_servicios)
 
     elif opc == 4:
         print(menu_ventas())
@@ -56,5 +62,6 @@ while True:
     elif opc == 5:
         print("Salió!!")
         break
+    
     guardar_datos_servicios(datos_servicios, RUTA_SERVICIOS)
     guardar_datos(datos, RUTA)

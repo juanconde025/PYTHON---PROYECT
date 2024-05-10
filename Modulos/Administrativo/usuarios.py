@@ -89,9 +89,23 @@ def categoria_usuario(datos):
 def servicios_utilizados(datos):
     print("")
 
-def interacciones(datos):
-    print("")
+from Modulos.Servicios.datos import *
+from Modulos.Servicios.servicios import *
+RUTA_SERVICIOSYPRODUCTOS = "Modulos/Servicios/serviciosyproductos.json"
 
+def interacciones(datos_servicios):
+    
+
+    opc = int(input("Ingrese 1 para comprar un servicio o 2 para comprar un producto"))
+    try:
+        opc = int(input("Ingrese la edad: "))
+    except Exception:
+        opc = 0
+    finally:
+        if opc == 1:
+            print("")
+
+            
 def servicios_especiales(datos):
     print("")
 

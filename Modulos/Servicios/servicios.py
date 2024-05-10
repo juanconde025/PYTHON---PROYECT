@@ -78,3 +78,15 @@ def eliminar_producto(datos_servicios):
                 datos_servicios["productos"].pop(i)
                 print("Eliminado")
     return datos_servicios
+
+def cant_serv(datos_servicios:dict):
+    
+    for i in range(len(datos_servicios["servicios"])):
+        result = i+1
+        print(result)
+
+def cant_product(datos_servicios:dict):
+    
+    for i in range(len(datos_servicios["productos"])):
+        result = i+1
+        print(result)
