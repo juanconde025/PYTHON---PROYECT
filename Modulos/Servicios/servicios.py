@@ -13,7 +13,7 @@ def crear_servicio(datos_servicios):
     return datos_servicios
     
 def catalogo_servicios(datos_servicios):
-    for i in datos_servicios["usuarios"]:
+    for i in datos_servicios["servicios"]:
         for llave,valor in i.items():
             print(llave,"=", valor)
 

@@ -30,13 +30,13 @@ while True:
     elif opc == 2:
         from Modulos.Servicios.datos import *
         from Modulos.Servicios.servicios import *
-        datos = cargar_datos(RUTA_SERVICIOS)
+        datos_servicios = cargar_datos(RUTA_SERVICIOS)
         print(menu_servicios())
         opc = pedir_opcion()
         if opc == 1:
-            datos_servicios = crear_servicio(datos_servicios)
+           datos_servicios = crear_servicio(datos_servicios)
         elif opc == 2:
-           print("")
+           catalogo_servicios(datos_servicios)
         elif opc == 3:
            print("")
             

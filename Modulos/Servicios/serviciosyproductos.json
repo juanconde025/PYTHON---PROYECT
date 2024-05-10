@@ -1,60 +1,60 @@
 {
-    "servicios":[
+    "servicios": [
         {
-            "internet":{
+            "internet": {
                 "fibra_optica": 40000,
-                "telefonia_hogar":60000,
+                "telefonia_hogar": 60000,
                 "parabolica": 50000
             },
-            "prepago":{
+            "prepago": {
                 "una_semana": 7000,
                 "un_mes": 28000,
                 "quincenal": 14000
             },
-            "post_pago":{
+            "post_pago": {
                 "al_dia": 2000,
-                "semanal":7500,
-                "quincenal":15000
+                "semanal": 7500,
+                "quincenal": 15000
+            }
+        },
+        {
+            "nombre": "plan ",
+            "caracteristicas": "20 Gb, Wsp, Face, X",
+            "precio": 22000
+        }
+    ],
+    "productos": [
+        {
+            "cel_samsumg": {
+                "marca": "samsumg",
+                "modelo": "2022",
+                "almacenamiento": "512 Gb",
+                "resolucion": "1080 p *900"
+            },
+            "cel_xiaomi": {
+                "marca": "xiaomi",
+                "modelo": "2021",
+                "almacenamiento": "128",
+                "resolucion": "1080 p *900"
+            },
+            "go_pro": {
+                "marca": "go pro",
+                "modelo": "2023",
+                "almacenamiento": "1 Tb",
+                "resolucion": "4K"
+            },
+            "cel_apple": {
+                "marca": "apple",
+                "modelo": "2024",
+                "almacenamiento": "512 Gb",
+                "resolucion": "1080 p *900"
             }
         }
     ],
-    "productos":[
-        {
-            "cel_samsumg":{
-                "marca":"samsumg",
-                "modelo":"2022",
-                "almacenamiento":"512 Gb",
-                "resolucion":"1080 p *900"
-            },
-            "cel_xiaomi":{
-                "marca":"xiaomi",
-                "modelo":"2021",
-                "almacenamiento":"128",
-                "resolucion":"1080 p *900"
-            },
-            "go_pro":{
-                "marca":"go pro",
-                "modelo":"2023",
-                "almacenamiento":"1 Tb",
-                "resolucion":"4K"
-            },
-            "cel_apple":{
-                "marca":"apple",
-                "modelo":"2024",
-                "almacenamiento":"512 Gb",
-                "resolucion":"1080 p *900"
-            }
-
-        }
+    "productos_tendencia": [
+        {}
     ],
-    "productos_tendencia":[
-        {
-
-        }
-    ],
-    "servicios_tendencia":[
-        {
-            
-        }
+    "servicios_tendencia": [
+        {}
     ]
 }
