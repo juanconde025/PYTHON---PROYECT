@@ -2,27 +2,13 @@
     "usuarios": [
         {
             "nombre": "juan",
-            "documento": "1981798",
+            "documento": "1313",
             "estado": "activo",
+            "servicios": "",
             "edad": 17,
             "codigo": 1,
-            "numero telefonico": 132445
-        },
-        {
-            "nombre": "karol",
-            "documento": "91729827",
-            "estado": "activo",
-            "edad": 17,
-            "codigo": 2,
-            "numero telefonico": 27634876
-        },
-        {
-            "nombre": "alejandro",
-            "documento": "1o8739123",
-            "estado": "activo",
-            "edad": 3,
-            "codigo": 3,
-            "numero telefonico": 98234876
+            "numero telefonico": 313
         }
+        
     ]
 }

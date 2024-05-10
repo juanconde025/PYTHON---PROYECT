@@ -1,17 +1,9 @@
 {
     "servicios": [
-        {
-            "nombre": "plan 15 dias",
-            "caracteristicas": "30 Gb, Wsp, Face, X",
-            "precio": 24000
-        }
+        {}
     ],
     "productos": [
-        {
-            "nombre": "celular apple",
-            "caracteristicas": "520 Gb, 1080 p",
-            "precio": 1200000
-        }
+        {}
     ],
     "productos_tendencia": [
         {}

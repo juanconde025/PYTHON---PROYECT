@@ -1,5 +1,6 @@
 def crear_servicio(datos_servicios):
     servicio={}
+    servicio["id"]=input("Ingrese id del servicio: ")
     servicio["nombre"]=input("Ingrese el nombre: ")
     servicio["caracteristicas"]=input("Ingrese las caracteristicas: ")
     try:
@@ -14,6 +15,7 @@ def crear_servicio(datos_servicios):
 
 def crear_producto(datos_servicios):
     producto={}
+    producto["id"]=input("Ingrese id del producto: ")
     producto["nombre"]=input("Ingrese el nombre: ")
     producto["caracteristicas"]=input("Ingrese las caracteristicas: ")
     try:
@@ -37,6 +39,7 @@ def actualizar_servicio(datos_servicios):
     for i in range(len(datos_servicios["servicios"])):
         if datos_servicios["servicios"][i]["nombre"] == nombre:
             servicio={}
+            servicio["id"]=input("Ingrese id del servicio: ")
             servicio["nombre"]=input("Ingrese el nombre: ")
             servicio["caracteristicas"]=input("Ingrese las caracteristicas: ")
             try:
@@ -52,6 +55,7 @@ def actualizar_producto(datos_servicios):
     for i in range(len(datos_servicios["productos"])): 
       if datos_servicios["productos"][i]["nombre"] == nombre:
         producto={}
+        producto["id"]=input("Ingrese id del producto: ")
         producto["nombre"]=input("Ingrese el nombre: ")
         producto["caracteristicas"]=input("Ingrese las caracteristicas: ")
         try:

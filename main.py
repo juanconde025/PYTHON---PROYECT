@@ -2,11 +2,16 @@ from Menu.datos import *
 from Menu.menu import *
 from Modulos.Administrativo.usuarios import *
 
+from Modulos.Servicios.datos import *
+from Modulos.Servicios.servicios import *
+
 
 
 RUTA = "Modulos/Administrativo/CRUD.json"
 RUTA_SERVICIOS = "Modulos/Servicios/serviciosyproductos.json"
 
+datos_servicios = cargar_datos(RUTA_SERVICIOS)
+datos_servicios = cargar_datos(RUTA_SERVICIOS)
 datos = cargar_datos(RUTA)
 
 
@@ -27,10 +32,14 @@ while True:
             datos = eliminar_usuario(datos)
         elif opc == 5:
             datos= categoria_usuario(datos)
+        elif opc == 6:
+            datos = interacciones_productos(datos)
+        elif opc == 7:
+            datos = interacciones_servicios(datos)
+           
+
     elif opc == 2:
-        from Modulos.Servicios.datos import *
-        from Modulos.Servicios.servicios import *
-        datos_servicios = cargar_datos(RUTA_SERVICIOS)
+        
         print(menu_servicios())
         opc = pedir_opcion()
         if opc == 1:
@@ -46,9 +55,6 @@ while True:
            datos_servicios = eliminar_producto(datos_servicios)
             
     elif opc == 3:
-        from Modulos.Servicios.datos import *
-        from Modulos.Servicios.servicios import *
-        datos_servicios = cargar_datos_servicios(RUTA_SERVICIOS)
         print(menu_reportes())
         opc = pedir_opcion()
         if opc == 1: 
@@ -63,5 +69,5 @@ while True:
         print("Salió!!")
         break
     
-    guardar_datos_servicios(datos_servicios, RUTA_SERVICIOS)
     guardar_datos(datos, RUTA)
+    guardar_datos_servicios(datos_servicios, RUTA_SERVICIOS)

@@ -38,7 +38,8 @@ def actualizar_usuario(datos:dict):
             usuario={}
             usuario["nombre"]=input("Ingrese el nombre: ")
             usuario["documento"]=input("Ingrese el documento: ")
-            usuario["estado"]= ("activo")
+            usuario["estado"]= input("Ingrese estado del usuario: ")
+
             try:
                 usuario["edad"] = int(input("Ingrese la edad: "))
             except Exception:
@@ -65,53 +66,53 @@ def eliminar_usuario(datos):
                 print("Eliminado")
     return datos
         
-def categoria_usuario(datos):
-    datos = dict(datos)
+def categoria_usuario(datos=1):
+    
     codigo =input("Ingrese el codigo: ")
-    for i in range(len(datos["usuarios"])):
-        if datos["usuarios"][i]["codigo"] == codigo and datos["usuarios"][i]["codigo"] == ("activo"):
-            if codigo == 1 or 2 or 3 or 4 or 5:
+    
+    
+    if codigo == "1" or "2" or "3" or "4" or "5":
                 print("Usuario leal")
-            elif codigo == 6 or 7 or 8 or 9 or 10:
+    elif codigo == "6" or "7" or "8" or "9" or "10":
                 print("Usuario nuevo")
-        if datos["usuarios"][i]["codigo"] == codigo and datos["usuarios"][i]["codigo"] == ("inactivo"):
-            if codigo == 1 or 2 or 3 or 4 or 5:
-                print("Usuario regular")
- 
-            
-                
-
-
-          
-        
-                     
-
-def servicios_utilizados(datos):
-    print("")
-
-from Modulos.Servicios.datos import *
-from Modulos.Servicios.servicios import *
-RUTA_SERVICIOSYPRODUCTOS = "Modulos/Servicios/serviciosyproductos.json"
-
-def interacciones(datos_servicios):
     
 
-    opc = int(input("Ingrese 1 para comprar un servicio o 2 para comprar un producto"))
+
+def interacciones_servicios(datos:dict):
+    
     try:
-        opc = int(input("Ingrese la edad: "))
+        opc = int(input("Ingrese 1 para comprar un servicio: "))
     except Exception:
         opc = 0
     finally:
         if opc == 1:
-            print("")
+            documento =input("Ingrese el documento: ")
+            for i in range(len(datos["usuarios"])):
+                if datos["usuarios"][i]["documento"] == documento:
+                    for i in range(len(datos["usuarios"])):
+                        servicio={}
+                        servicio["servicio adquirido"]=input("Ingrese el servicio: ")
+                        
+    datos["usuarios"].append(servicio)
+    return datos
 
+def interacciones_productos(datos:dict):
+    
+    try:
+        opc = int(input("Ingrese 1 para comprar un producto: "))
+    except Exception:
+        opc = 0
+    finally:
+        if opc == 1:
+            documento =input("Ingrese el documento: ")
+            for i in range(len(datos["usuarios"])):
+                if datos["usuarios"][i]["documento"] == documento:
+                    for i in range(len(datos["usuarios"])):
+                        producto={}
+                        producto["producto adquirido"]=input("Ingrese el producto: ")
+                        
+    datos["usuarios"].append(producto)
+    return datos
             
-def servicios_especiales(datos):
-    print("")
 
-def productos_adquiridos(datos):
-    print("")    
-
-def servicios_y_productos(datos):
-    print("")
 
