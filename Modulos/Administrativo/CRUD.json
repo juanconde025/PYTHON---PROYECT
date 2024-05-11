@@ -4,11 +4,10 @@
             "nombre": "juan",
             "documento": "1313",
             "estado": "activo",
-            "servicios": "",
+            "servicios": "plan postpago",
             "edad": 17,
             "codigo": 1,
             "numero telefonico": 313
         }
-        
     ]
 }

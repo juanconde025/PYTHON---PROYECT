@@ -67,7 +67,7 @@ def eliminar_usuario(datos):
                 print("Eliminado")
     return datos
         
-def categoria_usuario(datos=1):
+def categoria_usuario(datos):
     
     codigo =input("Ingrese el codigo: ")
     

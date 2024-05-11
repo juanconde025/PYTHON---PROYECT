@@ -18,11 +18,8 @@ def menu_usuarios():
     print("3. para actualizar a un usuario")
     print("4. para eliminar un usuario")
     print("5. para ver la categoria del usuario")
-    print("6. para ver los servicios utilizados por el usuario")
-    print("7. para ver interacciones usuario con la empresa")
-    print("8. para ver servicios especiales para ti")
-    print("9. para ver tu historial de productos adquiridos")
-    print("10. para ver servicios y productos que adquieren demas usuarios")
+    print("6. para comprar un servicio")
+    print("7. para comprar un producto")
     print("*************")
 
 def menu_servicios():
@@ -45,8 +42,7 @@ def menu_reportes():
 def menu_ventas():
     print("*************")
     print("Ingrese la opción que requiera")
-    print("1. para ver las caracteristicas de los productos y servicios")
-    print("2. para ver el registro de ventas totales")
+    print("1. para ver el registro de ventas totales")
     print("*************")
     
 def pedir_opcion():

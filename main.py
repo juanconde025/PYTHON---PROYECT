@@ -5,7 +5,7 @@ from Modulos.Administrativo.usuarios import *
 from Modulos.Servicios.datos import *
 from Modulos.Servicios.servicios import *
 
-
+from ventas import *
 
 RUTA = "Modulos/Administrativo/CRUD.json"
 RUTA_SERVICIOS = "Modulos/Servicios/serviciosyproductos.json"
@@ -64,6 +64,8 @@ while True:
     elif opc == 4:
         print(menu_ventas())
         opc = pedir_opcion()
+        if opc == 1:
+            ventas_totales(datos)
 
     elif opc == 5:
         print("Salió!!")
