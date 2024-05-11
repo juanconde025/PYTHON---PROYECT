@@ -3,6 +3,7 @@ def crear_usuario(datos:dict):
     usuario["nombre"]=input("Ingrese el nombre: ")
     usuario["documento"]=input("Ingrese el documento: ")
     usuario["estado"]= ("activo")
+    usuario["servicios"]= input("Ingrese el servicio que desee adquirir:  ")
     try:
         usuario["edad"] = int(input("Ingrese la edad: "))
     except Exception:
@@ -39,7 +40,7 @@ def actualizar_usuario(datos:dict):
             usuario["nombre"]=input("Ingrese el nombre: ")
             usuario["documento"]=input("Ingrese el documento: ")
             usuario["estado"]= input("Ingrese estado del usuario: ")
-
+            usuario["servicios"]= input("Ingrese el servicio que desee adquirir:  ")
             try:
                 usuario["edad"] = int(input("Ingrese la edad: "))
             except Exception:
