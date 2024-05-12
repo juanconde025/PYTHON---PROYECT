@@ -8,6 +8,15 @@
             "edad": 17,
             "codigo": 1,
             "numero telefonico": 313
+        },
+        {
+            "nombre": "karol",
+            "documento": "38388383",
+            "estado": "activo",
+            "servicios": "plan 30 dias",
+            "edad": 0,
+            "codigo": 0,
+            "numero telefonico": ""
         }
     ]
 }

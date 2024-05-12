@@ -7,12 +7,17 @@ from Modulos.Servicios.servicios import *
 
 from ventas import *
 
+from registros import *
+
+
 RUTA = "Modulos/Administrativo/CRUD.json"
 RUTA_SERVICIOS = "Modulos/Servicios/serviciosyproductos.json"
+RUTA_REGISTROS = "registros.txt"
 
 datos_servicios = cargar_datos(RUTA_SERVICIOS)
 datos_servicios = cargar_datos(RUTA_SERVICIOS)
 datos = cargar_datos(RUTA)
+
 
 
 while True:
@@ -70,6 +75,8 @@ while True:
     elif opc == 5:
         print("Salió!!")
         break
+
+    registrar_excepcion(Exception)
     
     guardar_datos(datos, RUTA)
     guardar_datos_servicios(datos_servicios, RUTA_SERVICIOS)
