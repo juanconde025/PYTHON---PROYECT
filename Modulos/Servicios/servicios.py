@@ -87,10 +87,10 @@ def cant_serv(datos_servicios:dict):
     
     for i in range(len(datos_servicios["servicios"])):
         result = i+1
-        print(result)
+        print(result,"servicios")
 
 def cant_product(datos_servicios:dict):
     
     for i in range(len(datos_servicios["productos"])):
         result = i+1
-        print(result)
+        print(result,"productos")
