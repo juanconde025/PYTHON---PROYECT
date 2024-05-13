@@ -9,15 +9,18 @@ from ventas import *
 
 from registros import *
 
+from Modulos.Ventas.datos import *
 
 RUTA = "Modulos/Administrativo/CRUD.json"
 RUTA_SERVICIOS = "Modulos/Servicios/serviciosyproductos.json"
 RUTA_REGISTROS = "registros.txt"
+RUTA_VENTAS = "Modulos/Ventas/ventas.json"
+
 
 datos_servicios = cargar_datos(RUTA_SERVICIOS)
 datos_servicios = cargar_datos(RUTA_SERVICIOS)
 datos = cargar_datos(RUTA)
-
+datos_ventas = cargar_datos_ventas(RUTA_VENTAS)
 
 
 while True:
@@ -37,10 +40,7 @@ while True:
             datos = eliminar_usuario(datos)
         elif opc == 5:
             datos= categoria_usuario(datos)
-        elif opc == 6:
-            datos = interacciones_productos(datos)
-        elif opc == 7:
-            datos = interacciones_servicios(datos)
+        
            
 
     elif opc == 2:
@@ -71,6 +71,10 @@ while True:
         opc = pedir_opcion()
         if opc == 1:
             ventas_totales(datos)
+        elif opc == 2:
+            datos_ventas = interacciones_productos(datos_ventas)
+        elif opc == 3:
+            datos_ventas = interacciones_servicios(datos_ventas)
 
     elif opc == 5:
         print("Salió!!")
@@ -80,3 +84,4 @@ while True:
     
     guardar_datos(datos, RUTA)
     guardar_datos_servicios(datos_servicios, RUTA_SERVICIOS)
+    guardar_datos_ventas(datos_ventas, RUTA_VENTAS)

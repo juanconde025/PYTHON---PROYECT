@@ -79,41 +79,6 @@ def categoria_usuario(datos):
     
 
 
-def interacciones_servicios(datos:dict):
-    
-    try:
-        opc = int(input("Ingrese 1 para comprar un servicio: "))
-    except Exception:
-        opc = 0
-    finally:
-        if opc == 1:
-            documento =input("Ingrese el documento: ")
-            for i in range(len(datos["usuarios"])):
-                if datos["usuarios"][i]["documento"] == documento:
-                    for i in range(len(datos["usuarios"])):
-                        servicio={}
-                        servicio["servicio adquirido"]=input("Ingrese el servicio: ")
-                        
-    datos["usuarios"].append(servicio)
-    return datos
 
-def interacciones_productos(datos:dict):
-    
-    try:
-        opc = int(input("Ingrese 1 para comprar un producto: "))
-    except Exception:
-        opc = 0
-    finally:
-        if opc == 1:
-            documento =input("Ingrese el documento: ")
-            for i in range(len(datos["usuarios"])):
-                if datos["usuarios"][i]["documento"] == documento:
-                    for i in range(len(datos["usuarios"])):
-                        producto={}
-                        producto["producto adquirido"]=input("Ingrese el producto: ")
-                        
-    datos["usuarios"].append(producto)
-    return datos
-            
 
 

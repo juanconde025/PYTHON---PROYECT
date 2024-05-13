@@ -8,7 +8,7 @@ def cargar_datos_ventas(archivo):
         
         
 
-def guardar_datos_servicios(datos_ventas, archivo):
+def guardar_datos_ventas(datos_ventas, archivo):
     datos_ventas = dict(datos_ventas)
     diccionario=json.dumps(datos_ventas, indent=4)
     file=open(archivo,"w")
