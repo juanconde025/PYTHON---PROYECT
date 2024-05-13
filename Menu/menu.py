@@ -39,8 +39,8 @@ def menu_ventas():
     print("*************")
     print("Ingrese la opción que requiera")
     print("1. para ver el registro de ventas totales")
-    print("2. para comprar un servicio")
-    print("3. para comprar un producto")
+    print("2. para comprar un producto")
+    print("3. para comprar un servicio")
     print("*************")
     
 def pedir_opcion():
