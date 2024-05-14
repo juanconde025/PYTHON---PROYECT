@@ -1,5 +1,5 @@
 import datetime
-import os
+
 
 def registrar_excepcion(excepcion):
  
