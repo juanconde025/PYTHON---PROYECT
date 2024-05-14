@@ -24,9 +24,12 @@ def menu_servicios():
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("Ingrese la opción que requiera")
     print("1. para crear un servicio")
-    print("2. para ver el catalogo de servicios")
-    print("3. para actualizar un servicio")
-    print("4. para eliminar un servicio")
+    print("2. para crear un producto")
+    print("3. para ver el catalogo de servicios")
+    print("4. para actualizar un servicio")
+    print("5. para actualizar un producto")
+    print("6. para eliminar un servicio")
+    print("7. para eliminar un producto")
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 def menu_reportes():

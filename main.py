@@ -49,16 +49,21 @@ while True:
         opc = pedir_opcion()
         if opc == 1:
            datos_servicios = crear_servicio(datos_servicios)
-           datos_servicios = crear_producto(datos_servicios)
         elif opc == 2:
-           catalogo_servicios(datos_servicios)
+           datos_servicios = crear_producto(datos_servicios)
         elif opc == 3:
-           datos_servicios = actualizar_servicio(datos_servicios)
-           datos_servicios = actualizar_producto(datos_servicios)
+           catalogo_servicios(datos_servicios)
         elif opc == 4:
+           datos_servicios = actualizar_servicio(datos_servicios)
+        elif opc == 5:
+           datos_servicios = actualizar_producto(datos_servicios)
+        elif opc == 6:
            datos_servicios = eliminar_servicio(datos_servicios)
+        elif opc == 7:
            datos_servicios = eliminar_producto(datos_servicios)
-            
+
+
+        
     elif opc == 3:
         print(menu_reportes())
         opc = pedir_opcion()

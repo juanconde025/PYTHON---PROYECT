@@ -1,8 +1,18 @@
 {
     "servicios": [
-        {}
+        {
+            "id": "plan prepago",
+            "nombre": "plan prepago",
+            "caracteristicas": "20 Gb, 15 dias, WSP, FACEBOOK, X",
+            "precio": 20000
+        }
     ],
     "productos": [
-        {}
+        {
+            "id": "109109",
+            "nombre": "celular xiaomi",
+            "caracteristicas": "128 Gb, 1080 p *90",
+            "precio": 700000
+        }
     ]
 }
