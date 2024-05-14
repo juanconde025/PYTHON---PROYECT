@@ -18,7 +18,6 @@ RUTA_VENTAS = "Modulos/Ventas/ventas.json"
 
 
 datos_servicios = cargar_datos(RUTA_SERVICIOS)
-datos_servicios = cargar_datos(RUTA_SERVICIOS)
 datos = cargar_datos(RUTA)
 datos_ventas = cargar_datos_ventas(RUTA_VENTAS)
 
