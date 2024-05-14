@@ -39,7 +39,7 @@ while True:
         elif opc == 4:
             datos = eliminar_usuario(datos)
         elif opc == 5:
-            datos= categoria_usuario(datos)
+            categoria_usuario()
         
            
 
