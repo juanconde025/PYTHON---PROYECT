@@ -18,7 +18,6 @@ def crear_usuario(datos:dict):
         usuario["numero telefonico"] = ""
     datos["usuarios"].append(usuario)
     print("usuario registrado")
-    print(datos)
     return datos
 
 def leer_usuario(datos):
@@ -58,24 +57,26 @@ def actualizar_usuario(datos:dict):
 
 
 
-def eliminar_usuario(datos):
-    datos = dict(datos)
+def eliminar_usuario(datos:dict):
     documento =input("Ingrese el documento: ")
     for i in range(len(datos["usuarios"])):
-        if datos["usuarios"][i]["documento"] == documento:
-                datos["usuarios"].pop(i)
-                print("Eliminado")
+         if documento == datos["usuarios"][i]["documento"]:
+            datos["usuarios"].pop(i)
+            return datos     
+    print("Usuario inexistente")
     return datos
-        
-def categoria_usuario():
-    
+
+def categoria_usuario(datos:dict):
     codigo =input("Ingrese el codigo: ")
-    
-    
-    if codigo == "1" or "2" or "3" or "4" or "5":
+    for i in range(len(datos["usuarios"])):
+        if codigo == datos["usuarios"][i]["codigo"]:
+            if codigo == "1" or "2" or "3" or "4" or "5":
                 print("Usuario leal")
-    elif codigo == "6" or "7" or "8" or "9" or "10":
+            elif codigo == "6" or "7" or "8" or "9" or "10":
                 print("Usuario nuevo")
+        else:
+            print("Codigo no existente")
+            
     
 
 

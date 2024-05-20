@@ -1,22 +1,13 @@
 {
     "usuarios": [
         {
-            "nombre": "juan",
-            "documento": "1313",
-            "estado": "activo",
-            "servicios": "plan postpago",
-            "edad": 17,
-            "codigo": 1,
-            "numero telefonico": 313
-        },
-        {
             "nombre": "karol",
-            "documento": "38388383",
+            "documento": "1987291",
             "estado": "activo",
-            "servicios": "plan 30 dias",
-            "edad": 0,
-            "codigo": 0,
-            "numero telefonico": ""
+            "servicios": "plan semanal",
+            "edad": 18,
+            "codigo": 1,
+            "numero telefonico": 32323342
         }
     ]
 }

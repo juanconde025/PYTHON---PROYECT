@@ -10,7 +10,6 @@ def crear_servicio(datos_servicios):
     
     datos_servicios["servicios"].append(servicio)
     print("servicio registrado")
-    print(datos_servicios)
     return datos_servicios
 
 def crear_producto(datos_servicios):
@@ -25,7 +24,6 @@ def crear_producto(datos_servicios):
     
     datos_servicios["productos"].append(producto)
     print("producto registrado")
-    print(datos_servicios)
     return datos_servicios
     
 def catalogo_servicios(datos_servicios):
@@ -86,11 +84,13 @@ def eliminar_producto(datos_servicios):
 def cant_serv(datos_servicios:dict):
     
     for i in range(len(datos_servicios["servicios"])):
-        result = i+1
-        print(result,"servicios")
+       print("")
+    result = i+1
+    print(result,"servicios")
 
 def cant_product(datos_servicios:dict):
     
     for i in range(len(datos_servicios["productos"])):
-        result = i+1
-        print(result,"productos")
+        print("")
+    result = i+1
+    print(result,"productos")

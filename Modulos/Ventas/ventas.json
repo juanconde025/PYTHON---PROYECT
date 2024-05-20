@@ -2,6 +2,12 @@
     "ventas": [
         {
             "producto adquirido": "xiomi redmi note 12"
+        },
+        {
+            "producto adquirido": "audifonos apple"
+        },
+        {
+            "servicio adquirido": "a"
         }
     ]
 }

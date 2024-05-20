@@ -5,6 +5,12 @@
             "nombre": "plan prepago",
             "caracteristicas": "20 Gb, 15 dias, WSP, FACEBOOK, X",
             "precio": 20000
+        },
+        {
+            "id": "108739",
+            "nombre": "plan familiar",
+            "caracteristicas": "128 gb",
+            "precio": 50000
         }
     ],
     "productos": [
