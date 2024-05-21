@@ -2,12 +2,12 @@
     "usuarios": [
         {
             "nombre": "karol",
-            "documento": "1987291",
-            "estado": "activo",
-            "servicios": "plan semanal",
-            "edad": 18,
-            "codigo": 1,
-            "numero telefonico": 32323342
+            "documento": "182374651286",
+            "estado": "nuevo",
+            "servicios": "plan anual",
+            "edad": 20,
+            "codigo": 2,
+            "numero telefonico": 3792836297
         }
     ]
 }

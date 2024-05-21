@@ -11,3 +11,4 @@ def registrar_excepcion(excepcion):
       archivo.write(mensaje + "\n")
   except Exception as e:
     print(f"Error al registrar excepción: {e}")
+    

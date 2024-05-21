@@ -19,6 +19,12 @@
             "nombre": "celular xiaomi",
             "caracteristicas": "128 Gb, 1080 p *90",
             "precio": 700000
+        },
+        {
+            "id": "96234862",
+            "nombre": "celular nokia",
+            "caracteristicas": "128 gb",
+            "precio": 300000
         }
     ]
 }

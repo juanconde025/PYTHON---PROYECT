@@ -1,13 +1,24 @@
 {
     "ventas": [
         {
-            "producto adquirido": "xiomi redmi note 12"
+            "adquirido": "plan mensual",
+            "nombre quien adquirio": "daniela",
+            "cantidad que quiere adquirir": 3
         },
         {
-            "producto adquirido": "audifonos apple"
+            "adquirido": "internet fibra optica",
+            "nombre quien adquirio": "daniela",
+            "cantidad que quiere adquirir": 10
         },
         {
-            "servicio adquirido": "a"
+            "adquirido": "celular xiaomi",
+            "nombre quien adquirio": "daniela",
+            "cantidad que quiere adquirir": 30
+        },
+        {
+            "adquirido": "celular nokia",
+            "nombre quien adquirio": "daniela",
+            "cantidad que quiere adquirir": 4
         }
     ]
 }

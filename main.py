@@ -69,6 +69,9 @@ while True:
         if opc == 1: 
          cant_serv(datos_servicios)
          cant_product(datos_servicios)
+        elif opc == 2:
+            producto_tendencia(datos_ventas)
+            
 
     elif opc == 4:
         print(menu_ventas())
@@ -76,9 +79,9 @@ while True:
         if opc == 1:
             ventas_totales(datos)
         elif opc == 2:
-            datos_ventas = interacciones_productos(datos_ventas)
+            datos_ventas = interacciones_servicios(datos,datos_ventas)
         elif opc == 3:
-            datos_ventas = interacciones_servicios(datos_ventas)
+            datos_ventas = interacciones_productos(datos,datos_ventas)
 
     elif opc == 5:
         print("Salió!!")

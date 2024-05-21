@@ -36,14 +36,15 @@ def menu_reportes():
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("Ingrese su opcion")
     print("1. para ver la cantidad de productos y servicios que hay en la empresa")
+    print("2. para ver productos y servicios tendencia")
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 def menu_ventas():
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("Ingrese su opcion")
     print("1. para ver el registro de ventas totales")
-    print("2. para comprar un producto")
-    print("3. para comprar un servicio")
+    print("2. para comprar un servicio")
+    print("3. para comprar un producto")
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     
 def pedir_opcion():
