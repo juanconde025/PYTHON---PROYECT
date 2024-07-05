@@ -4,10 +4,10 @@ Este repositorio se uso para el desarrollo de un aplicativo en python el cual re
 ## Tabla de contenidos
 | Indice | Titulo  |
 |--|--|
-| 1 | Instalación |
-| 2 | Modulo administrativo |
-| 3 | Modulo reportes |
-| 4 | Modulo ventas |
+| 1 | [Instalación](#instalaciones) |
+| 2 | [Modulo administrativo](modulo-administrativo) |
+| 3 | [Modulo reportes](modulo-reportes) |
+| 4 | [Modulo ventas](modulo-de-ventas) |
 
 
 ### Instalaciones 
