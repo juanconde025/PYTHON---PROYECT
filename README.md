@@ -1,7 +1,7 @@
-# Python Proyect
+# Python Proyect 🚀
 Este repositorio se uso para el desarrollo de un aplicativo en python el cual realizara un registro y manejo de datos para servicios de telefonia, productos, internet y señal de televisión en el cual el usuario tiene un menu con diferentes opciones para el uso de este aplicativo: modulo **administrativo**, **reportes** y **ventas**  
 
-## Tabla de contenidos
+## Tabla de contenidos 📋
 | Indice | Titulo  |
 |--|--|
 | 1 | [Instalación](#instalaciones) |
@@ -10,12 +10,12 @@ Este repositorio se uso para el desarrollo de un aplicativo en python el cual re
 | 4 | [Modulo ventas](#modulo-de-ventas) |
 
 
-### Instalaciones 
+### Instalaciones 🛠️
 - Deberás descargar el el documento zip 
 - Tienes que extraerlo con la opción extraer aquí
 - Desplaza la carpeta generada a Visual Studio Code
 
-### Modulo administrativo
+### Modulo administrativo 💻
 
 En este modulo encontrarás opciones las cuales te registrará, eliminará, actualizará y leerá tu información como usuario mediante el uso de archivos .json
 
@@ -31,7 +31,7 @@ D --.json--> H((Datos antiguos eliminados y datos nuevos guardados))
 E --.json--> I((Lectura de datos en el json)) 
 ```
 
-### Modulo reportes
+### Modulo reportes 📢
 
 En este modulo encontraras la información de los **servicios** y **productos** que has **adquirido** como usuario
   
@@ -42,7 +42,7 @@ Te mostrará:
 > [!WARNING]
 > Si no has adquirido ningun servicio o producto te saldra en ceros (0)
 
-### Modulo de ventas
+### Modulo de ventas 🛒
 
 En este modulo podrás **adquirir** los **servicios** y **productos** que desees comprar
 
