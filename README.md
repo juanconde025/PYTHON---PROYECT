@@ -5,9 +5,9 @@ Este repositorio se uso para el desarrollo de un aplicativo en python el cual re
 | Indice | Titulo  |
 |--|--|
 | 1 | [Instalación](#instalaciones) |
-| 2 | [Modulo administrativo](modulo-administrativo) |
-| 3 | [Modulo reportes](modulo-reportes) |
-| 4 | [Modulo ventas](modulo-de-ventas) |
+| 2 | [Modulo administrativo](#modulo-administrativo) |
+| 3 | [Modulo reportes](#modulo-reportes) |
+| 4 | [Modulo ventas](#modulo-de-ventas) |
 
 
 ### Instalaciones 
